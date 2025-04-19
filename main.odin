@@ -1,4 +1,4 @@
-package main
+package ozip
 
 import "core:fmt"
 import "core:path/filepath"
@@ -58,7 +58,15 @@ main :: proc (){
     for file in file_list{
         fmt.printfln("%v", file)
     }
-    unordered_remove(&file_list, 0)
 
+    // Start Generation Here
+ /*   zip_file := "archive.zip"
+    err := zip_create(zip_file, file_list[:])
+    if err != nil {
+        fmt.eprintln("Failed to create zip archive:", err)
+        os.exit(3)
+    }
+    fmt.println("Zip archive created successfully:", zip_file)
+*/
 
 }
