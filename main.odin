@@ -59,14 +59,4 @@ main :: proc (){
         fmt.printfln("%v", file)
     }
 
-    // Start Generation Here
- /*   zip_file := "archive.zip"
-    err := zip_create(zip_file, file_list[:])
-    if err != nil {
-        fmt.eprintln("Failed to create zip archive:", err)
-        os.exit(3)
-    }
-    fmt.println("Zip archive created successfully:", zip_file)
-*/
-
 }
